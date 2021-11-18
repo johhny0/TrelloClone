@@ -1,0 +1,14 @@
+{
+    "type": "sqlite",
+    "database": "trello.db",
+    "synchronize": true,
+    "entities": [
+        "**/models/*.ts"
+    ],
+    "migrations": [
+        "src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
